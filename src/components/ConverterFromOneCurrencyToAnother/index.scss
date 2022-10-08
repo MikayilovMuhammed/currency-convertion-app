@@ -1,0 +1,21 @@
+.currency-convertion {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+    
+    &__to, &__from {
+        display: flex;
+
+        &__input {
+            height: 100%;
+            width: 100%;
+            margin-right: 12px;
+        }
+
+        &____select-option {
+            width: 30%;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.currency-converter-app {
+    padding: 40px 0;
+    text-align: center;
+
+    &__card {
+        &__image {
+            max-width: 100%;
+            height: 352px;
+            cursor: pointer;
+        }
+    }
+}
